@@ -1,0 +1,585 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>toast弹窗</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/toast__/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/toast__/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1667" class="ax_default box_2">
+        <div id="u1667_div" class=""></div>
+        <div id="u1667_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1668" class="ax_default _一级标题">
+        <div id="u1668_div" class=""></div>
+        <div id="u1668_text" class="text ">
+          <p><span>toast弹窗</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1669" class="ax_default _文本段落">
+        <div id="u1669_div" class=""></div>
+        <div id="u1669_text" class="text ">
+          <p><span>对操作结果的轻量级反馈，无需用户操作即可自行消失。适用于页面内容的变化不能直接反应操作结果时使用。</span></p><p><span><br></span></p><p><span><br></span></p><p><span><br></span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u1670" class="ax_default">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1671" class="ax_default table_cell">
+          <img id="u1671_img" class="img " src="images/页面加载/u4.png"/>
+          <div id="u1671_text" class="text ">
+            <p><span>属性</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1672" class="ax_default table_cell">
+          <img id="u1672_img" class="img " src="images/页面加载/u5.png"/>
+          <div id="u1672_text" class="text ">
+            <p><span>说明</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1673" class="ax_default table_cell">
+          <img id="u1673_img" class="img " src="images/页面加载/u6.png"/>
+          <div id="u1673_text" class="text ">
+            <p><span>参考值</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1674" class="ax_default table_cell">
+          <img id="u1674_img" class="img " src="images/页面加载/u7.png"/>
+          <div id="u1674_text" class="text ">
+            <p><span>默认值</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1675" class="ax_default table_cell">
+          <img id="u1675_img" class="img " src="images/底部导航栏/u94.png"/>
+          <div id="u1675_text" class="text ">
+            <p><span>弹窗位置</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1676" class="ax_default table_cell">
+          <img id="u1676_img" class="img " src="images/底部导航栏/u95.png"/>
+          <div id="u1676_text" class="text ">
+            <p><span>该弹窗横向居中展示。纵向展示位置包含顶部、中部、底部。</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1677" class="ax_default table_cell">
+          <img id="u1677_img" class="img " src="images/底部导航栏/u96.png"/>
+          <div id="u1677_text" class="text ">
+            <p><span>顶部 | 中部 | 底部</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1678" class="ax_default table_cell">
+          <img id="u1678_img" class="img " src="images/底部导航栏/u97.png"/>
+          <div id="u1678_text" class="text ">
+            <p><span>中部</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1679" class="ax_default table_cell">
+          <img id="u1679_img" class="img " src="images/底部导航栏/u94.png"/>
+          <div id="u1679_text" class="text ">
+            <p><span>是否允许背景点击</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1680" class="ax_default table_cell">
+          <img id="u1680_img" class="img " src="images/底部导航栏/u95.png"/>
+          <div id="u1680_text" class="text ">
+            <p><span>出现该弹窗时，是否允许对页面进行操作</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1681" class="ax_default table_cell">
+          <img id="u1681_img" class="img " src="images/底部导航栏/u96.png"/>
+          <div id="u1681_text" class="text ">
+            <p><span>允许 | 不允许</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1682" class="ax_default table_cell">
+          <img id="u1682_img" class="img " src="images/底部导航栏/u97.png"/>
+          <div id="u1682_text" class="text ">
+            <p><span>允许</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1683" class="ax_default table_cell">
+          <img id="u1683_img" class="img " src="images/底部导航栏/u94.png"/>
+          <div id="u1683_text" class="text ">
+            <p><span>持续时间</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1684" class="ax_default table_cell">
+          <img id="u1684_img" class="img " src="images/底部导航栏/u95.png"/>
+          <div id="u1684_text" class="text ">
+            <p><span>弹窗展示的时长。根据需求设定</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1685" class="ax_default table_cell">
+          <img id="u1685_img" class="img " src="images/底部导航栏/u96.png"/>
+          <div id="u1685_text" class="text ">
+            <p><span>1s | 2s | 3s | 5s | 10s | 加载完成后自动关闭 | 长期展示</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1686" class="ax_default table_cell">
+          <img id="u1686_img" class="img " src="images/底部导航栏/u97.png"/>
+          <div id="u1686_text" class="text ">
+            <p><span>3s | 加载完成后自动关闭</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1687" class="ax_default table_cell">
+          <img id="u1687_img" class="img " src="images/页面加载/u4.png"/>
+          <div id="u1687_text" class="text ">
+            <p><span>图标</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1688" class="ax_default table_cell">
+          <img id="u1688_img" class="img " src="images/页面加载/u5.png"/>
+          <div id="u1688_text" class="text ">
+            <p><span>弹窗的图标，根据设计稿展示</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1689" class="ax_default table_cell">
+          <img id="u1689_img" class="img " src="images/页面加载/u6.png"/>
+          <div id="u1689_text" class="text ">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1690" class="ax_default table_cell">
+          <img id="u1690_img" class="img " src="images/页面加载/u7.png"/>
+          <div id="u1690_text" class="text ">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1691" class="ax_default table_cell">
+          <img id="u1691_img" class="img " src="images/页面加载/u8.png"/>
+          <div id="u1691_text" class="text ">
+            <p><span>内容</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1692" class="ax_default table_cell">
+          <img id="u1692_img" class="img " src="images/页面加载/u9.png"/>
+          <div id="u1692_text" class="text ">
+            <p><span>弹窗的文本内容，根据需求展示</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1693" class="ax_default table_cell">
+          <img id="u1693_img" class="img " src="images/页面加载/u10.png"/>
+          <div id="u1693_text" class="text ">
+            <p><span>-</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u1694" class="ax_default table_cell">
+          <img id="u1694_img" class="img " src="images/页面加载/u11.png"/>
+          <div id="u1694_text" class="text ">
+            <p><span>-</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1695" class="ax_default _二级标题">
+        <div id="u1695_div" class=""></div>
+        <div id="u1695_text" class="text ">
+          <p><span>示例</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1696" class="ax_default _三级标题">
+        <div id="u1696_div" class=""></div>
+        <div id="u1696_text" class="text ">
+          <p><span>组件作用</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1697" class="ax_default _三级标题">
+        <div id="u1697_div" class=""></div>
+        <div id="u1697_text" class="text ">
+          <p><span>组件属性及交互说明</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1698" class="ax_default box_2">
+        <div id="u1698_div" class=""></div>
+        <div id="u1698_text" class="text ">
+          <p><span>基础样式</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1699" class="ax_default box_1">
+        <div id="u1699_div" class=""></div>
+        <div id="u1699_text" class="text ">
+          <p style="font-size:28px;"><span style="font-family:'Font Awesome 5 Pro', sans-serif;font-weight:400;color:#666666;"></span><span style="font-family:'微软雅黑', sans-serif;font-weight:400;font-size:14px;">&nbsp; 普通提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1700" class="ax_default box_1">
+        <div id="u1700_div" class=""></div>
+        <div id="u1700_text" class="text ">
+          <p style="font-size:24px;"><span style="font-family:'Font Awesome 5 Pro', sans-serif;font-weight:400;color:#666666;"></span><span style="font-family:'微软雅黑', sans-serif;font-weight:400;font-size:14px;">&nbsp; 加载提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1701" class="ax_default box_1">
+        <div id="u1701_div" class=""></div>
+        <div id="u1701_text" class="text ">
+          <p style="font-size:28px;"><span style="font-family:'Font Awesome 5 Pro', sans-serif;font-weight:400;color:#666666;"></span><span style="font-family:'微软雅黑', sans-serif;font-weight:400;font-size:14px;"> </span><span style="font-family:'微软雅黑', sans-serif;font-weight:400;font-size:14px;color:#666666;">成功提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1702" class="ax_default box_1">
+        <div id="u1702_div" class=""></div>
+        <div id="u1702_text" class="text ">
+          <p style="font-size:28px;"><span style="font-family:'Font Awesome 5 Pro', sans-serif;font-weight:400;"></span><span style="font-family:'FontAwesome', sans-serif;font-weight:400;"> </span><span style="font-family:'微软雅黑', sans-serif;font-weight:400;font-size:14px;">警告提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1703" class="ax_default box_1">
+        <div id="u1703_div" class=""></div>
+        <div id="u1703_text" class="text ">
+          <p style="font-size:28px;"><span style="font-family:'Font Awesome 5 Pro', sans-serif;font-weight:400;color:#666666;"></span><span style="font-family:'FontAwesome', sans-serif;font-weight:400;color:#666666;"> </span><span style="font-family:'微软雅黑', sans-serif;font-weight:400;font-size:14px;">错误提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1704" class="ax_default box_1">
+        <div id="u1704_div" class=""></div>
+        <div id="u1704_text" class="text ">
+          <p style="font-size:28px;"><span style="font-family:'Font Awesome 5 Pro', sans-serif;font-weight:400;color:#666666;"></span><span style="font-family:'微软雅黑', sans-serif;font-weight:400;font-size:14px;">&nbsp; 等待提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1705" class="ax_default box_1">
+        <div id="u1705_div" class=""></div>
+        <div id="u1705_text" class="text ">
+          <p style="font-size:28px;"><span style="font-family:'Font Awesome 5 Pro', sans-serif;font-weight:400;color:#666666;"></span><span style="font-family:'微软雅黑', sans-serif;font-weight:400;font-size:14px;">&nbsp; 其它提示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1706" class="ax_default box_1">
+        <div id="u1706_div" class=""></div>
+        <div id="u1706_text" class="text ">
+          <p><span style="font-family:'微软雅黑', sans-serif;font-weight:400;">点击查看 </span><span style="font-family:'Font Awesome 5 Pro Light', 'Font Awesome 5 Pro', sans-serif;font-weight:300;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1707" class="ax_default box_1">
+        <div id="u1707_div" class=""></div>
+        <div id="u1707_text" class="text ">
+          <p><span style="font-family:'微软雅黑', sans-serif;font-weight:400;">点击查看 </span><span style="font-family:'Font Awesome 5 Pro Light', 'Font Awesome 5 Pro', sans-serif;font-weight:300;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1708" class="ax_default box_1">
+        <div id="u1708_div" class=""></div>
+        <div id="u1708_text" class="text ">
+          <p><span style="font-family:'微软雅黑', sans-serif;font-weight:400;">点击查看 </span><span style="font-family:'Font Awesome 5 Pro Light', 'Font Awesome 5 Pro', sans-serif;font-weight:300;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1709" class="ax_default box_1">
+        <div id="u1709_div" class=""></div>
+        <div id="u1709_text" class="text ">
+          <p><span style="font-family:'微软雅黑', sans-serif;font-weight:400;">点击查看 </span><span style="font-family:'Font Awesome 5 Pro Light', 'Font Awesome 5 Pro', sans-serif;font-weight:300;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1710" class="ax_default box_1">
+        <div id="u1710_div" class=""></div>
+        <div id="u1710_text" class="text ">
+          <p><span style="font-family:'微软雅黑', sans-serif;font-weight:400;">点击查看 </span><span style="font-family:'Font Awesome 5 Pro Light', 'Font Awesome 5 Pro', sans-serif;font-weight:300;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1711" class="ax_default box_1">
+        <div id="u1711_div" class=""></div>
+        <div id="u1711_text" class="text ">
+          <p><span style="font-family:'微软雅黑', sans-serif;font-weight:400;">点击查看 </span><span style="font-family:'Font Awesome 5 Pro Light', 'Font Awesome 5 Pro', sans-serif;font-weight:300;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u1712" class="ax_default box_1">
+        <div id="u1712_div" class=""></div>
+        <div id="u1712_text" class="text ">
+          <p><span style="font-family:'微软雅黑', sans-serif;font-weight:400;">点击查看 </span><span style="font-family:'Font Awesome 5 Pro Light', 'Font Awesome 5 Pro', sans-serif;font-weight:300;"></span></p>
+        </div>
+      </div>
+
+      <!-- 吐司提示 (动态面板) -->
+      <div id="u1713" class="ax_default ax_default_hidden" data-label="吐司提示" style="display:none; visibility: hidden">
+        <div id="u1713_state0" class="panel_state" data-label="普通提示" style="">
+          <div id="u1713_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (矩形) -->
+            <div id="u1714" class="ax_default box_1">
+              <img id="u1714_img" class="img " src="images/toast__/u1714.svg"/>
+              <div id="u1714_text" class="text ">
+                <p><span>没有图标的普通提示</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u1713_state1" class="panel_state" data-label="加载提示" style="visibility: hidden;">
+          <div id="u1713_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (组合) -->
+            <div id="u1715" class="ax_default" data-left="0" data-top="0" data-width="150" data-height="110">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u1716" class="ax_default box_1">
+                <img id="u1716_img" class="img " src="images/toast__/u1716.svg"/>
+                <div id="u1716_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u1717" class="ax_default box_1">
+                <div id="u1717_div" class=""></div>
+                <div id="u1717_text" class="text ">
+                  <p><span>全局加载提示</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (SVG) -->
+              <div id="u1718" class="ax_default box_1">
+                <img id="u1718_img" class="img " src="images/toast__/u1718.svg"/>
+                <div id="u1718_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u1713_state2" class="panel_state" data-label="成功提示" style="visibility: hidden;">
+          <div id="u1713_state2_content" class="panel_state_content">
+
+            <!-- Unnamed (组合) -->
+            <div id="u1719" class="ax_default" data-left="0" data-top="0" data-width="150" data-height="110">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u1720" class="ax_default box_1">
+                <img id="u1720_img" class="img " src="images/toast__/u1716.svg"/>
+                <div id="u1720_text" class="text ">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u1721" class="ax_default box_1">
+                <div id="u1721_div" class=""></div>
+                <div id="u1721_text" class="text ">
+                  <p><span>成功的提示文字</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u1713_state3" class="panel_state" data-label="警告提示" style="visibility: hidden;">
+          <div id="u1713_state3_content" class="panel_state_content">
+
+            <!-- Unnamed (组合) -->
+            <div id="u1722" class="ax_default" data-left="0" data-top="0" data-width="150" data-height="110">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u1723" class="ax_default box_1">
+                <img id="u1723_img" class="img " src="images/toast__/u1716.svg"/>
+                <div id="u1723_text" class="text ">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u1724" class="ax_default box_1">
+                <div id="u1724_div" class=""></div>
+                <div id="u1724_text" class="text ">
+                  <p><span>警告的提示文字</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u1713_state4" class="panel_state" data-label="错误提示" style="visibility: hidden;">
+          <div id="u1713_state4_content" class="panel_state_content">
+
+            <!-- Unnamed (组合) -->
+            <div id="u1725" class="ax_default" data-left="0" data-top="0" data-width="150" data-height="110">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u1726" class="ax_default box_1">
+                <img id="u1726_img" class="img " src="images/toast__/u1716.svg"/>
+                <div id="u1726_text" class="text ">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u1727" class="ax_default box_1">
+                <div id="u1727_div" class=""></div>
+                <div id="u1727_text" class="text ">
+                  <p><span>错误的提示文字</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u1713_state5" class="panel_state" data-label="等待提示" style="visibility: hidden;">
+          <div id="u1713_state5_content" class="panel_state_content">
+
+            <!-- Unnamed (组合) -->
+            <div id="u1728" class="ax_default" data-left="0" data-top="0" data-width="150" data-height="110">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u1729" class="ax_default box_1">
+                <img id="u1729_img" class="img " src="images/toast__/u1716.svg"/>
+                <div id="u1729_text" class="text ">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u1730" class="ax_default box_1">
+                <div id="u1730_div" class=""></div>
+                <div id="u1730_text" class="text ">
+                  <p><span>等待的提示文字</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u1713_state6" class="panel_state" data-label="其它提示" style="visibility: hidden;">
+          <div id="u1713_state6_content" class="panel_state_content">
+
+            <!-- Unnamed (组合) -->
+            <div id="u1731" class="ax_default" data-left="0" data-top="0" data-width="150" data-height="110">
+
+              <!-- Unnamed (矩形) -->
+              <div id="u1732" class="ax_default box_1">
+                <img id="u1732_img" class="img " src="images/toast__/u1716.svg"/>
+                <div id="u1732_text" class="text ">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (矩形) -->
+              <div id="u1733" class="ax_default box_1">
+                <div id="u1733_div" class=""></div>
+                <div id="u1733_text" class="text ">
+                  <p><span>其它的反馈提示</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
